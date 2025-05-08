@@ -1,0 +1,6 @@
+[13-Dec-2024 11:53:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/customer/www/rsoa72.rehan.school/public_html/Blogger/db.php:7
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Blogger/db.php(7): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'blogger')
+#1 /home/customer/www/rsoa72.rehan.school/public_html/Blogger/index.php(1): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Blogger/db.php on line 7
